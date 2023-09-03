@@ -1,0 +1,22 @@
+{
+  "name": "kdjl-helper",
+  "version": "1.1.0",
+  "description": "口袋精灵助手",
+  "main": "assets/root.js",
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder",
+    "postinstall": "electron-builder install-app-deps"
+  },
+  "devDependencies": {
+    "electron": "17.0.0",
+    "electron-builder": "^23.0.3"
+  },
+  "dependencies": {
+    "axios": "^0.19.1",
+    "crypto-js": "^3.1.9-1",
+    "socks": "^2.6.0"
+  }
+}

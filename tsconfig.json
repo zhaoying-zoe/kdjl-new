@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "ES5",
+        "outDir": "out",
+        "sourceMap": true,
+        "rootDir": "src",
+        "removeComments": false,
+        "declaration": false
+    },
+    "strict": true,
+    "include": [
+        "src"
+    ]
+}
